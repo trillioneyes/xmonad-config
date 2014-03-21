@@ -15,5 +15,6 @@ main = do
     manageHook = manageDocks <+> manageHook defaultConfig,
     layoutHook = avoidStruts $ layoutHook defaultConfig,
     borderWidth = 2, normalBorderColor = "cccccc",
-    modMask = mod4Mask
+    modMask = mod4Mask,
+    terminal = "urxvt"
 }
